@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Generator</title>
+    <link rel="stylesheet" href="./CSS/simple.css">
+</head>
+<body>
+    <div id="Detail-Box">
+        <div id="Name">
+            <p>Your Full Name</p>
+            <input type="text" placeholder="Enter your full name">
+        </div>
+        <div id="WhoAreYou">
+            <p>Who are You</p>
+            <input type="text" placeholder="Your profession">
+        </div>
+        <div id="Email">
+            <p>Your Email</p>
+            <input type="email" placeholder="example@domain.com">
+        </div>
+        <div id="ContactNumber">
+            <p>Your Contact Number</p>
+            <input type="number" placeholder="Enter your contact number">
+        </div>
+        <div id="Address">
+            <p>Your Address</p>
+            <input type="text" placeholder="Enter your address">
+        </div>
+        <div id="Summary">
+            <p>Summary</p>
+            <textarea placeholder="Write a brief summary about yourself"></textarea>
+        </div>
+
+        <div id="Exp">
+            <h2>Experience</h2>
+            <div class="company">
+                <p>Company Name</p>
+                <input type="text" placeholder="Enter company name">
+                <p>Years</p>
+                <input type="text" placeholder="Duration">
+                <p>Location</p>
+                <input type="text" placeholder="Location">
+                <p>Contact Number</p>
+                <input type="text" placeholder="Company contact">
+                <p>Summary</p>
+                <textarea placeholder="Briefly describe your role"></textarea>
+            </div>
+        </div>
+        <button id="AddButton">Add Company</button>
+
+        <div id="Education">
+            <h2>Education</h2>
+            <p>Institution Name</p>
+            <input type="text" placeholder="Enter institution name">
+            <p>Degree</p>
+            <input type="text" placeholder="Enter degree">
+            <p>Year of Passing</p>
+            <input type="text" placeholder="Year">
+        </div>
+
+        <div id="Skills">
+            <h2>Skills</h2>
+            <!-- <textarea placeholder="List your skills"></textarea> -->
+
+        </div>
+        <button id="AddSkills">Add Skills</button>
+
+        <div id="Strengths">
+            <h2>Strengths</h2>
+            
+        </div>
+        <button id="AddStrengths">Add Strengths</button>
+
+        <div id="Languages">
+            <h2>Languages</h2>
+            
+        </div>
+        <button id="AddLanguages">Add Languages</button>
+
+
+        <div id="Certificates">
+            <h2>Certificates</h2>
+           
+        </div>
+        <button id="AddCertificates">Add Certificates</button>
+
+    </div>
+
+    <button id="generate">Generate</button>
+    <script src="./JAVASCRIPT/dom-to-image.js"></script>
+    <script src="./JAVASCRIPT/simple.input.functions.js"></script>
+    <script src="./JAVASCRIPT/Simple.resume.generator.js"></script>
+</body>
+</html>

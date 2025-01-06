@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f9f9f9; */
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+#Detail-Box {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    /* background: #fff; */
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    padding: 20px;
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Detail-Box div {
+    margin-bottom: 15px;
+}
+
+#Detail-Box p {
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+input, textarea{
+    background-color: rgb(32, 31, 31);
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+::placeholder
+{
+    color: white;
+}
+#Detail-Box button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+h2 {
+    margin-top: 20px;
+    /* color: #333; */
+    color: white;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    color: black;
+    margin: 0;
+    font-size: 24px;
+}
+.header p {
+    color: black;
+    margin: 5px 0;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+.section ul {
+    color: black;
+    list-style: none;
+    padding: 0;
+}
+.section ul li {
+    color: black;
+    margin-bottom: 10px;
+}
+.skills, .strengths, .languages {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills span, .strengths span, .languages span {
+    background: #eee;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.languages span {
+    display: inline-flex;
+    align-items: center;
+}
+.languages span .dots {
+    margin-left: 10px;
+    display: inline-block;
+}
+.languages span .dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #666;
+    margin: 0 2px;
+    border-radius: 50%;
+}
+.languages span .dots span.inactive {
+    background: #ddd;
+}

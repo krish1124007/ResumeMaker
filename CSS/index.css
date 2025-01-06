@@ -1,0 +1,26 @@
+#Tamplates .Tamplate img
+{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#Tamplates
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.Tamplate
+{
+    display: flex;
+    flex-direction: column;
+}
+.Tamplate img:hover{
+    width: 95%;
+    border: 1px solid black;
+    cursor: pointer;
+}
